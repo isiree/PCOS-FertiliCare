@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.DEBUG)
 flask_app = Flask(__name__)
 
 # Configure MongoDB connection
-flask_app.config['MONGO_URI'] = "mongodb+srv://isir20221073:<password>@cluster0.jsykn7a.mongodb.net/FertilicareDB?retryWrites=true&w=majority&appName=Cluster0"
+flask_app.config['MONGO_URI'] = "mongodb+srv://Isimongo123:<Isimongo123>@cluster0.ru4anqi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # Initialize PyMongo with the Flask application
 mongo = PyMongo(flask_app)
